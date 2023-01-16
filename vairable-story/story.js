@@ -52,3 +52,4 @@ document.write (`<p>The little pigs held their breath. The ${wolf} was coming do
 document.write (`<p>&nbsp;&nbsp;&nbsp;&nbsp;'Yoweeeee!' he screamed, and shot back up the chimney thinking his tail was on fire.</p>`)
 document.write (`<p>The last the three little pigs saw of the big bad ${wolf} was him flying over the treetops clutching a very sore tail.</p>`)
 document.write (`<p>So, the three little pigs lived happily together ever after in their very smart houses of bricks.</p>`)
+
