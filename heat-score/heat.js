@@ -24,12 +24,15 @@ if (gender ==="boy"){
 
     if (total > 21){
         document.write(`<p class = "p2"> Good job !</p>`)
+        document.write("<img class ='p3' src = 'https://i.pinimg.com/originals/05/ea/e7/05eae76d436a2dcfe467d9e1e2e1699a.gif'>")
     
     } else if (total <= 21 && total >= 11){
         document.write(`<p class = "p2"> Not too bad, but it can be better </p>`)
+        document.write("<img class = 'p3' src = 'https://i.pinimg.com/originals/d5/de/b7/d5deb74f818bbb30baa0dc226f9cef62.gif'>")
     
     } else if ( total < 11){
         document.write(`<p class = "p2"> Not good </p>`)
+        document.write("<img class = 'p3' src = 'https://i.pinimg.com/originals/8f/bb/46/8fbb46afdf800c7156a6aa3d33fa3d10.gif'>")
     }
 
 
@@ -54,11 +57,14 @@ if (gender ==="boy"){
 
  if (total2 > 21){
     document.write(`<p class = "p2"> Good job !</p>`)
+    document.write("<img class ='p3' src = 'https://i.pinimg.com/originals/05/ea/e7/05eae76d436a2dcfe467d9e1e2e1699a.gif'>")
 
 } else if (total2 <= 21 && total2 >= 11){
     document.write(`<p class = "p2"> Not too bad, but it can be better </p>`)
+    document.write("<img class = 'p3' src = 'https://i.pinimg.com/originals/d5/de/b7/d5deb74f818bbb30baa0dc226f9cef62.gif'>")
 
 } else if ( total2 < 11){
     document.write(`<p class = "p2" > Not good </p>`)
-}
+    document.write("<img class = 'p3' src = 'https://i.pinimg.com/originals/8f/bb/46/8fbb46afdf800c7156a6aa3d33fa3d10.gif'>")
+    }
 }
