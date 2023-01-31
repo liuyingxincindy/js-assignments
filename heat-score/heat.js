@@ -10,13 +10,13 @@ if (gender ==="boy"){
     hair=parseInt(hair)
     personality=parseInt(personality)
     rich=parseInt(rich)
-    if (money > 1000000){
-        money = 10
+    if (rich > 1000000){
+        rich = 10
     
-    }else if (money >= 100000 && money <= 1000000){
-        money = 5
+    }else if (rich >= 100000 && rich <= 1000000){
+        rich = 5
     } else {
-        money = 1
+        rich = 1
     }
 
     let total = hair + personality + rich 
@@ -33,7 +33,7 @@ if (gender ==="boy"){
 
  if (mommy === "yes") {
     mommy = 10
- }else (mommy=parseInt(mommy)) {
+ }else {
     mommy = 1 
  }
 
