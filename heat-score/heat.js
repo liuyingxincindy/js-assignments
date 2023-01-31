@@ -22,6 +22,17 @@ if (gender ==="boy"){
     let total = hair + personality + rich 
     document.write(`<p class = "p1"> Hi ${name}, your total score is ${total} </p>`)
 
+    if (total > 21){
+        document.write(`<p class="p2"> Good job !</p>`)
+    
+    } else if (total <= 21 && total >= 11){
+        document.write(`<p class="p2"> Not too bad, but it can be better </p>`)
+    
+    } else if ( total < 11){
+        document.write(`<p class="p2"> Not good </p>`)
+    }
+
+
 } else if(gender === "girl"){
  let hair2 = prompt("How much hair do you have? From 1-10") 
  let appearance = prompt("Do you think you have a good looking? From 1-10")
@@ -41,4 +52,13 @@ if (gender ==="boy"){
  
  document.write (`<p> class="p1"> Hi ${name}, your total score is ${total2} </p>`)
 
+ if (total2 > 21){
+    document.write(`<p class="p2"> Good job !</p>`)
+
+} else if (total2 <= 21 && total2 >= 11){
+    document.write(`<p class="p2"> Not too bad, but it can be better </p>`)
+
+} else if ( total2 < 11){
+    document.write(`<p class="p2"> Not good </p>`)
+}
 }
