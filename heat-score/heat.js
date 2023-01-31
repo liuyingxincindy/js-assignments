@@ -47,7 +47,7 @@ if (gender ==="boy"){
 
  if (mommy === "yes") {
     mommy = 10
- }else {
+ } else  {
     mommy = 1 
  }
 
