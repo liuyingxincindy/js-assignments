@@ -1,0 +1,25 @@
+*{
+    font-family: 'Shantell Sans', cursive;
+    background-color: lightgrey;
+    color:black;
+}
+.TS{
+    font-size: 80px;
+    font-weight: 1000;
+}
+.p1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.p2 {
+    font-size:22px;
+}
+.pic{
+    height:500px;
+    width:600px;
+    padding-top: 160px;
+}
+.ha{
+display: flex;
+justify-content: space-evenly;
+}

@@ -2,4 +2,80 @@
     font-family: 'Rubik', sans-serif;
     margin:0px;
     padding:0px;
+    background-color: lightslategrey;
+}
+.score1 {
+    text-align: center;
+    background-color: lightskyblue;
+    padding-top: 5vh;
+    font-size: 100px;
+    color:azure;
+}
+.number2 {
+    
+    background-color: lightskyblue;
+    padding-top: 5vh;
+    font-size: 100px;
+    color:azure;
+}
+.number3 {
+
+    background-color: lightskyblue;
+    padding-top: 5vh;
+    font-size: 100px;
+    color:azure;
+}
+.one{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.score2 {
+    text-align: center;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 150px;
+}
+.score3 {
+    text-align: center;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 150px;
+}
+.number {
+    text-align: center;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 80px;
+}
+.two{
+    padding-right: 150px;
+}
+.three{
+    padding-left: 150px;
+}
+
+.team {
+    color:azure;
+    font-size: 40px ;
+
+}
+.team2 {
+    color:azure;
+    font-size: 40px ;
+
+}
+.period {
+    color:azure;
+    font-size: 30px;
+    text-align: center;
+}
+.five {
+    margin-top: 50px;
+}
+.time {
+    color:azure;
+    font-size: 50px;
+    margin-top: 20px;
 }
