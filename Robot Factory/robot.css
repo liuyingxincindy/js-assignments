@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+   font-family: 'PT Serif', serif;
+  
+}
+.body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqPQ2FQgoz47sQInYEKLRVjyszCEr-5R0Qh09Dd0SnmhWHS3D-6x7oNnfwQ39d4brNV9M&usqp=CAU");
+    background-size: cover;
+}
+.title {
+text-align:center;
+font-size: 70px;
+font-weight: 600;
+color:azure;
+padding-top: 14vh;
+
+}
+ 
+
+.p1{
+    color:azure;
+    font-size: 22px;
+  }
+  .div2 {
+    text-align: center;
+  }
+  .b1{
+background-image: url("https://cdna.artstation.com/p/assets/images/images/000/163/980/large/imery-watson-robotfactory-web.jpg?1407814521");
+background-size: cover;
+color:azure;
+  }
