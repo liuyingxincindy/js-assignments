@@ -1,0 +1,33 @@
+.body {
+    background-color: lightgrey;
+}
+
+.song1img {
+    width: 480px;
+    height:400px;
+}
+
+.song2img {
+    width:400px;
+    height:400px;
+}
+
+.song3img {
+    width:400px;
+    height:400px;
+}
+
+.song1 {
+    margin-bottom:30px;
+ 
+}
+.songh1 {
+    margin-left: 120vh;
+    font-size: 120px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.song1div2 {
+    width: 700px;
+    height:0px
+}
