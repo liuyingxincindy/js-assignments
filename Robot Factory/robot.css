@@ -1,19 +1,21 @@
 *{
     padding:0;
     margin:0;
-   font-family: 'PT Serif', serif;
+ 
   
 }
 .body{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqPQ2FQgoz47sQInYEKLRVjyszCEr-5R0Qh09Dd0SnmhWHS3D-6x7oNnfwQ39d4brNV9M&usqp=CAU");
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/000/163/980/large/imery-watson-robotfactory-web.jpg?1407814521");
     background-size: cover;
+    font-family: 'PT Serif', serif;
+   
 }
 .title {
 text-align:center;
 font-size: 70px;
 font-weight: 600;
 color:azure;
-padding-top: 14vh;
+padding-top: 9vh;
 
 }
  
@@ -26,7 +28,26 @@ padding-top: 14vh;
     text-align: center;
   }
   .b1{
+padding-top:10vh;
 background-image: url("https://cdna.artstation.com/p/assets/images/images/000/163/980/large/imery-watson-robotfactory-web.jpg?1407814521");
 background-size: cover;
 color:azure;
+font-family: 'PT Serif', serif;
+
   }
+
+  .cookh2 {
+    font-size: 80px;
+  }
+.robotp {
+    font-size: 15px;
+    font-weight: 100;
+}
+.cookh3 {
+   font-size: 30px;
+   font-weight: 200;
+}
+.cookimage {
+    width:50vh;
+    height: 70vh;
+}

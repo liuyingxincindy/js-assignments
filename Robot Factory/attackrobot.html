@@ -8,15 +8,18 @@
     <link rel="stylesheet" href ="./robot.css">
 </head>
 <body class="b1">
-    <h2> Attack Robot Line</h2>
-    <div class = "attack-robots"></div>
+    <h2 class="cookh2"> Attack Robot </h2>
 
-    <h3>New Attack Robot</h3>
+    <p class ="robotp">Create New Bot </p>
+    <input id="atk-name" type="text" placeholder="Name">
     <input id="atk-damage" type="text" placeholder="Damage">
     <input id="atk-hp" type="text" placeholder="HP">
-    <input id="atk-name" type="text" placeholder="Name">
     <input id="atk-image" type="text" placeholder="Image Link">
     <button onclick="newAttackRobot()">Build Attack Robot</button>
+    <input id ="atk-delete" type = "text" placeholder ="Robot Name">
+    <button onclick ="deleteAttack()">Delete</button>
+    <h3 class="cookh3"> Attack Robot Line</h3>
+    <div class = "attack-robots"></div>
     <a href="index.html" text-decoration="none">BACK</a>
     <link rel="stylesheet" href ="./robot.css">
     <script src="./robot.js"></script>

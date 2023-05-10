@@ -7,17 +7,19 @@
     <title>Document</title>
 </head>
 <body class = "b1">
-    <h2> Clean Robot Line</h2>
-    <div class = "clean-robots"></div> 
-    
-    <h3>New Clean Robot</h3>
+    <h2 class="cookh2"> Clean Robot </h2>
+
+    <p class ="robotp">Create New Bot </p>
     <input id = "clean-name" type ="text" placeholder="Name">
     <input id = "clean-size" type ="text" placeholder="Size"> 
     <input id = "clean-color" type ="text" placeholder="Color">
     <input id = "clean-image" type ="text" placeholder="Image Link">
     <button onclick ="newCleanRobot()"> Build Clean Robot</button>
-    <a href="index.html" text-decoration="none">BACK</a>
-
+    <input id ="clean-delete" type = "text" placeholder ="Robot Name">
+    <button onclick ="deleteClean()">Delete</button>
+        <a href="index.html" text-decoration="none">BACK</a>
+    <h3 class="cookh3"> Clean Robot Line</h3>
+    <div class = "clean-robots"></div> 
     <link rel="stylesheet" href ="./robot.css">
     <script src="./robot.js"></script>
   </body> 
